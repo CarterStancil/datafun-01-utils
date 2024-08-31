@@ -43,9 +43,23 @@ byline: str = 'Stancil Solutions: The Absolute Best'
 # so there's nothing needed inside the parentheses.
 # Everything afer the colon (:) must be indented (usually 4 spaces)
 
+#####################################
+# Define the get_byline() Function
+#####################################
+
+def get_byline() -> str:
+    '''Return a byline for my analytics projects.'''
+    return byline
+
+#####################################
+# Define a main() function for this module.
+#####################################
+
+# The function now calls get_byline() to retrieve the byline.
+
 def main() -> None:
     '''Print the byline to the console when this function is called.'''
-    print(byline)
+    print(get_byline())
 
 #####################################
 # Conditional Execution - Only call main() when executing this module as a script.
