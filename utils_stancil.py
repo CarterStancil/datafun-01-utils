@@ -1,4 +1,4 @@
-''' ITERATION 4
+''' ITERATION 5
 
 Module: Stancil Solutions - Reusable Module for My Data Analytics Projects
 
@@ -64,6 +64,46 @@ byline: str = 'Stancil Solutions: The Absolute Best'
 # so there's nothing needed inside the parentheses.
 # Everything afer the colon (:) must be indented (usually 4 spaces)
 
+
+
+#####################################
+# Declare a global variable named byline.
+#####################################
+
+byline: str = 'Stancil Solutions: The Absolute Best'
+
+#####################################
+# Define a main() function for this module.
+#####################################
+
+# Create a function named main.
+# A function is a block of code that performs a specific task.
+# This function will simply print the byline to the console.
+# Add a type hint to indicate that this function doesn't return anything when called 
+# (that is, it has a Python type of None).
+# It doesn't need any additional information passed in, 
+# so there's nothing needed inside the parentheses.
+# Everything afer the colon (:) must be indented (usually 4 spaces)
+
+#####################################
+# Declare a global variable named byline.
+#####################################
+
+byline: str = 'Stancil Solutions: The Absolute Best'
+
+#####################################
+# Define a main() function for this module.
+#####################################
+
+# Create a function named main.
+# A function is a block of code that performs a specific task.
+# This function will simply print the byline to the console.
+# Add a type hint to indicate that this function doesn't return anything when called 
+# (that is, it has a Python type of None).
+# It doesn't need any additional information passed in, 
+# so there's nothing needed inside the parentheses.
+# Everything afer the colon (:) must be indented (usually 4 spaces)
+
 import statistics
 
 #Declare Global Variables 
@@ -84,7 +124,7 @@ customer_satisfaction_scores: list = [9.8, 7.8, 8.4, 10, 9.1]
 min_score: float = min(customer_satisfaction_scores)
 max_score: float = max(customer_satisfaction_scores)
 mean_score: float = statistics.mean(customer_satisfaction_scores)
-stdev_score: float: = statistics.stdev(customer_satisfaction_scores)
+stdev_score: float = statistics.stdev(customer_satisfaction_scores)
 
 
 byline: str = f"""
@@ -95,6 +135,10 @@ Has Hybrid Workplace: {has_hybrid_workplace}
 Years in Operation: {years_in_operation}
 Employee Characteristics: {employee_characteristics}
 Customer Satisfaction Scores: {customer_satisfaction_scores}
+Minimum Satisfaction Score: {min_score}
+Maximum Satisfaction Score: {max_score}
+Average Satisfaction Score: {mean_score}
+Standard Deviation Satisfaction Score: {stdev_score}
 """
 
 
