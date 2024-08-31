@@ -1,4 +1,4 @@
-''' ITERATION 1
+''' ITERATION 3
 
 Module: Stancil Solutions - Reusable Module for My Data Analytics Projects
 
@@ -42,6 +42,31 @@ byline: str = 'Stancil Solutions: The Absolute Best'
 # It doesn't need any additional information passed in, 
 # so there's nothing needed inside the parentheses.
 # Everything afer the colon (:) must be indented (usually 4 spaces)
+
+#Declare Global Variables 
+
+#Boolean variable for hybrid workplace
+has_hybrid_workplace: bool = True
+
+#Int variable for years in operation
+years_in_operation: int = 9
+
+#String List for employee characteristics
+employee_characteristics: list = ["Timely", "Personable", "Respectful"]
+
+#Float list for customer satisfaction scores
+customer_satisfaction_scores: list = [9.8, 7.8, 8.4, 10, 9.1]
+
+byline: str = f"""
+-------------------------------------
+Stancil Solutions: The Absolute Best
+-------------------------------------
+Has Hybrid Workplace: {has_hybrid_workplace}
+Years in Operation: {years_in_operation}
+Employee Characteristics: {employee_characteristics}
+Customer Satisfaction Scores: {customer_satisfaction_scores}
+"""
+
 
 #####################################
 # Define the get_byline() Function
